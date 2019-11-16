@@ -1,0 +1,27 @@
+.drag-area {
+    margin: 1em 0;
+    padding: 3em calc(100vw * 1/ 4);
+    color: #929191;
+    border: 1px dashed #929191;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+
+.box__uploading,
+.box__success,
+.box__error {
+  display: none;
+}
+.box.has-advanced-upload {
+    background-color: white;
+    outline: 2px dashed black;
+    outline-offset: -10px;
+  }
+  .box.has-advanced-upload .box__dragndrop {
+    display: inline;
+  }
+  .is-dragover {
+    background-color: grey;
+  }
